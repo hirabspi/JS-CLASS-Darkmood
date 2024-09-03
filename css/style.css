@@ -1,0 +1,126 @@
+/* 1 General */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+:root {
+    /* Background Color */
+    --primary-color: #021832;
+    --secondary-color: #caa169;
+    --bg-color: #f4f4f4;
+    --bg-white: #fff;
+    --bg-black: #000;
+
+    /* Text Style */
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'Oswald', sans-serif;
+    --primary-text: #021832;
+    --secondary-text: #caa169;
+    --text-white: #fff;
+    --text-black: #151515;
+    --text-gray: #e4e4e4;
+}
+
+body {
+    font-family: var(--primary-font);
+    background-color: var(--bg-white);
+    color:var(--text-black)
+}
+
+.darkmood{
+    font-family: var(--primary-font);
+    background-color: var(--bg-black);
+    color:var(--text-white)
+}
+.darkmood a{
+    text-decoration: none;
+    color: var(--text-white);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-black);
+}
+ul li{
+    list-style: none;
+}
+nav{
+    text-align: center;
+    padding: 10px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+
+}
+nav .originsl{
+    display: block;
+}
+nav .light{
+    display: none;
+}
+.darkmood .originsl{
+    display: none;
+}
+.darkmood .light{
+    display: block;
+}
+nav .navlink{
+    margin-top: 15px;
+}
+nav .navlink a{
+    margin-left: 15px;
+
+}
+
+nav .btne{
+   height: 40px;
+   width:40px;
+   font-size: 27px;
+   border: none;
+   display: flex;
+   overflow: hidden; 
+   transition: 0.5s;
+   background-color: aqua;
+}
+.darkmood .btn{
+    height:40px;
+    width:40px;
+    font-size: 27px;
+    display: block;
+    border: none;
+    overflow: hidden;
+    transition: 0.5s;
+
+ }
+ nav .sunicon{
+    background-color: #da8510;
+    padding: 0px 8px;
+    margin-left: -80%;
+    transition: 0.7s;
+ }
+ nav .municon{
+    background-color: #071d38;
+    padding: 0px 8px;
+    color: #f4f4f4;
+    transition: 0.7s;
+ }
+ .darkmood .sunicon{
+    margin-left:-360%;
+ }
+.heding{
+    text-align: center;
+    margin: 100px auto;
+    box-shadow: rgba(200, 244, 3, 0.2) 10px 7px 29px 10px;
+    width: 700px;
+    border-radius: 70px 0px 70px 0px;
+    
+}
+
+ 
+ 
+
